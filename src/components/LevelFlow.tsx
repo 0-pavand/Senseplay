@@ -67,6 +67,7 @@ export const LevelFlow = ({ game, level, onComplete }: { game: any, level: any, 
   const isSpellingStep = level.type === 'spelling';
   const isSignGame = game.id === 'sign-and-play';
   const isDetectGame = game.id === 'see-and-identify';
+  const isLearnGame = game.id === 'shape-sorter';
 
   // Read gesture directly from level data (set in games.ts)
   const expectedGesture: string | null = isSignGame ? (level.gesture || null) : null;
@@ -460,7 +461,7 @@ export const LevelFlow = ({ game, level, onComplete }: { game: any, level: any, 
               />
             )}
             
-            {!(isDetectGame || isSignGame) && renderOptions(false, true)}
+            {!(isDetectGame || isSignGame || isLearnGame) && renderOptions(false, true)}
           </motion.div>
         )}
 
@@ -515,7 +516,7 @@ export const LevelFlow = ({ game, level, onComplete }: { game: any, level: any, 
               />
             )}
 
-            {!(isDetectGame || isSignGame) && renderOptions(false, false)}
+            {!(isDetectGame || isSignGame || isLearnGame) && renderOptions(false, false)}
           </motion.div>
         )}
 
@@ -579,7 +580,7 @@ export const LevelFlow = ({ game, level, onComplete }: { game: any, level: any, 
               />
             )}
 
-            {!(isDetectGame || isSignGame) && renderOptions(true, false)}
+            {!(isDetectGame || isSignGame || isLearnGame) && renderOptions(true, false)}
           </motion.div>
         )}
 
