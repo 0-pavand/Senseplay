@@ -23,7 +23,7 @@ const TRANSLATIONS = {
     games: {
       'sign-and-play': 'Sign & Play',
       'listen-and-guess': 'Listen & Guess',
-      'shape-sorter': 'Shape Sorter',
+      'shape-sorter': 'Speak & Say',
       'see-and-identify': 'See & Identify'
     },
     reviewTitle: "Review",
@@ -39,7 +39,7 @@ const TRANSLATIONS = {
     games: {
       'sign-and-play': '手语与游戏',
       'listen-and-guess': '聆听与猜迷',
-      'shape-sorter': '形状分类',
+      'shape-sorter': '说说看',
       'see-and-identify': '观察与识别'
     },
     reviewTitle: "复习",
@@ -55,7 +55,7 @@ const TRANSLATIONS = {
     games: {
       'sign-and-play': '手話と遊び',
       'listen-and-guess': '聞いて当てる',
-      'shape-sorter': '形合わせ',
+      'shape-sorter': '言って見て',
       'see-and-identify': '見て識別する'
     },
     reviewTitle: "復習",
@@ -71,7 +71,7 @@ const TRANSLATIONS = {
     games: {
       'sign-and-play': 'சைகை & விளையாடு',
       'listen-and-guess': 'கேட்பது & கணிப்பது',
-      'shape-sorter': 'வடிவங்களை பிரித்தல்',
+      'shape-sorter': 'பேசு & சொல்',
       'see-and-identify': 'பார்த்து அடையாளம் காண்'
     },
     reviewTitle: "மீள்பார்வை",

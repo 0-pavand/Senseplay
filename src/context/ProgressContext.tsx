@@ -11,7 +11,7 @@ const defaultState: ProgressState = {
   unlockedLevels: {
     'sign-and-play': ['l1', 'l2', 'l3', 'l4', 'l5', 'l6', 'l7', 'l8', 'l9', 'l10'],
     'listen-and-guess': ['l1', 'l2', 'l3', 'l4', 'l5', 'l6', 'l7', 'l8', 'l9', 'l10'],
-    'shape-sorter': ['l1', 'l2', 'l3', 'l4', 'l5', 'l6', 'l7', 'l8', 'l9', 'l10'],
+    'shape-sorter': ['l1', 'l2', 'l3', 'l4', 'l5'],
     'see-and-identify': ['l1', 'l2', 'l3', 'l4', 'l5']
   },
   stars: {},

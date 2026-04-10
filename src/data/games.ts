@@ -474,7 +474,7 @@ export const GAMES = [
   },
   { 
     id: 'shape-sorter', 
-    title: "Learn & Play", 
+    title: "Speak & Say", 
     bg: "bg-[#0A7A66]", 
     borderBg: "border-[#086353]", 
     icon: Shapes, 
@@ -503,28 +503,7 @@ export const GAMES = [
       },
       { 
         id: 'l2', 
-        title: 'Level 2: Match Circle', 
-        type: 'matching',
-        introText: 'This is a circle. It is perfectly round.', 
-        introIcon: Circle,
-        funFact: 'Shape recognition helps problem-solving',
-        guidedText: 'A circle has no corners. Tap the circle!',
-        practiceText: 'Which shape is a Circle?',
-        testQuestions: [
-          {
-            questionText: 'Find the Circle',
-            correctOption: 'circle',
-            options: [
-              { id: 'circle', label: '🔵', icon: Circle },
-              { id: 'triangle', label: '🔺', icon: Triangle },
-              { id: 'square', label: '⬛', icon: Square },
-            ]
-          }
-        ]
-      },
-      { 
-        id: 'l3', 
-        title: 'Level 3: Spell DOG', 
+        title: 'Level 2: Spell DOG', 
         type: 'spelling',
         introText: 'Let\'s learn how to spell "DOG"!', 
         introIcon: Dog,
@@ -545,29 +524,8 @@ export const GAMES = [
         ]
       },
       { 
-        id: 'l4', 
-        title: 'Level 4: Match Triangle', 
-        type: 'matching',
-        introText: 'This is a triangle. It has three sides.', 
-        introIcon: Triangle,
-        funFact: 'Triangles are strong shapes used in structures',
-        guidedText: 'A triangle has three corners. Tap the triangle!',
-        practiceText: 'Which shape is a Triangle?',
-        testQuestions: [
-          {
-            questionText: 'Find the Triangle',
-            correctOption: 'triangle',
-            options: [
-              { id: 'triangle', label: '🔺', icon: Triangle },
-              { id: 'circle', label: '🔵', icon: Circle },
-              { id: 'square', label: '⬛', icon: Square },
-            ]
-          }
-        ]
-      },
-      { 
-        id: 'l5', 
-        title: 'Level 5: Spell SUN', 
+        id: 'l3', 
+        title: 'Level 3: Spell SUN', 
         type: 'spelling',
         introText: 'Let\'s learn how to spell "SUN"!', 
         introIcon: Sun,
@@ -588,29 +546,8 @@ export const GAMES = [
         ]
       },
       { 
-        id: 'l6', 
-        title: 'Level 6: Match Square', 
-        type: 'matching',
-        introText: 'This is a square. It has four equal sides.', 
-        introIcon: Square,
-        funFact: 'Squares are used in buildings and designs',
-        guidedText: 'A square has four corners. Tap the square!',
-        practiceText: 'Which shape is a Square?',
-        testQuestions: [
-          {
-            questionText: 'Find the Square',
-            correctOption: 'square',
-            options: [
-              { id: 'square', label: '⬛', icon: Square },
-              { id: 'triangle', label: '🔺', icon: Triangle },
-              { id: 'circle', label: '🔵', icon: Circle },
-            ]
-          }
-        ]
-      },
-      { 
-        id: 'l7', 
-        title: 'Level 7: Spell BALL', 
+        id: 'l4', 
+        title: 'Level 4: Spell BALL', 
         type: 'spelling',
         introText: 'Let\'s learn how to spell "BALL"!', 
         introIcon: Type,
@@ -631,29 +568,8 @@ export const GAMES = [
         ]
       },
       { 
-        id: 'l8', 
-        title: 'Level 8: Match Star', 
-        type: 'matching',
-        introText: 'This is a star. It has many points.', 
-        introIcon: Star,
-        funFact: 'Stars are massive balls of gas in space',
-        guidedText: 'A star shines bright. Tap the star!',
-        practiceText: 'Which shape is a Star?',
-        testQuestions: [
-          {
-            questionText: 'Find the Star',
-            correctOption: 'star',
-            options: [
-              { id: 'star', label: '⭐', icon: Star },
-              { id: 'circle', label: '🔵', icon: Circle },
-              { id: 'square', label: '⬛', icon: Square },
-            ]
-          }
-        ]
-      },
-      { 
-        id: 'l9', 
-        title: 'Level 9: Spell TREE', 
+        id: 'l5', 
+        title: 'Level 5: Spell TREE', 
         type: 'spelling',
         introText: 'Let\'s learn how to spell "TREE"!', 
         introIcon: Trees,
@@ -669,27 +585,6 @@ export const GAMES = [
               { id: 'BIRD', label: 'BIRD', icon: Type },
               { id: 'FISH', label: 'FISH', icon: Type },
               { id: 'P', label: 'P', icon: Type },
-            ]
-          }
-        ]
-      },
-      { 
-        id: 'l10', 
-        title: 'Level 10: Mixed', 
-        type: 'mixed',
-        introText: 'Let\'s match a shape and spell a word!', 
-        introIcon: BookOpen,
-        funFact: 'Reading improves imagination',
-        guidedText: 'Match the book and spell "BOOK".',
-        practiceText: 'Match and spell!',
-        testQuestions: [
-          {
-            questionText: 'Match & Spell BOOK',
-            correctOption: 'BOOK',
-            options: [
-              { id: 'BOOK', label: 'BOOK', icon: BookOpen },
-              { id: 'PEN', label: 'PEN', icon: Type },
-              { id: 'STAR', label: 'STAR', icon: Star },
             ]
           }
         ]
